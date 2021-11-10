@@ -48,7 +48,7 @@ if __name__ == "__main__":
         if 'ORCA TERMINATED NORMALLY' in line:
             found = True
     if not found:
-        sys.exit('Calculation not completed. Something went wrong in the termochemistry analysis.')
+        sys.exit('Calculation not completed. Something went wrong.')
 
     print('-----------------------------------------')
     print('Data for {}.log'.format(fname))
