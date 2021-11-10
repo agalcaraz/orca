@@ -23,7 +23,7 @@ import pandas as pd
 if __name__ == "__main__":
 
     #Create the argument parser
-    parser = argparse.ArgumentParser("This script parses optimization files done in orca to extract final single point energy, zero point energy and g correction")
+    parser = argparse.ArgumentParser("This script parses orca files to extract Mulliken and Loewdin charges")
     parser.add_argument("path", help="The filepath to the file to be analyzed")
     
     args = parser.parse_args()
