@@ -23,7 +23,7 @@ import sys
 if __name__ == "__main__":
 
     #Create the argument parser
-    parser = argparse.ArgumentParser("This script parses optimization files done in orca to extract final single point energy, zero point energy and g correction")
+    parser = argparse.ArgumentParser("This script parses optimization files done in orca to extract final single point energy, zero point energy, g correction, molecular orbitals and the energy vs number cycles representation")
     parser.add_argument("path", help="The filepath to the file to be analyzed")
     
     args = parser.parse_args()
