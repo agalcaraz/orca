@@ -45,11 +45,11 @@ if __name__ == "__main__":
     
     #Plot
     
-    plt.figure()
+    plt.figure(figsize = (10,5))
     plt.xlabel('Number of step')
     plt.ylabel('Energy (Eh)')
     plt.plot(every_step, file[:,1], '--o')
-    plt.savefig(F'{fname}_plotscan.png')
+    plt.savefig(F'{fname}_plotscan.png', bbox_inches = 'tight')
     
     #Final message
     

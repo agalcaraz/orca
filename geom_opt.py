@@ -148,11 +148,11 @@ if __name__ == "__main__":
             numbers = float(cycle_line_split[-2])
             all_cycles.append(numbers)
     
-    plt.figure()
+    plt.figure(figsize = (10,5))
     plt.xlabel('Number of cycles')
     plt.ylabel('Energy (Eh)')
     plt.plot(all_cycles, all_energies[:-1], '--o')
-    plt.savefig(F'{fname}.png')
+    plt.savefig(F'{fname}.png', bbox_inches = 'tight')
     
     output.close()
     
