@@ -4,7 +4,7 @@
 # optimization (without vibrational frequencies calculation) 
 # done in orca 4.2.1 using as input a .log file
 #
-# The input format is: 'python geom_opt filename.log'
+# The input format is: 'python geom_opt.py filename.log'
 #
 # Output information: electronic parameters and 
 # energy vs nº cycles representation
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     output.write(f'Energy LUMO (eV) : {LUMO} / MO nº: {length_occupied_list}\n')
     output.write(f'gap (eV) : {gap}\n')
     
-    #Ploting energies vs number of cycles 
+    #Plotting energies vs number of cycles 
     
     all_cycles = []
     

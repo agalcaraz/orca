@@ -4,7 +4,7 @@
 # point calculation performed with orca 4.2.1 using 
 # as input a .log file
 #
-# The input format is: 'python final_energy filename.log'
+# The input format is: 'python final_energy.py filename.log'
 #
 # Output information: final single point energy
 #
